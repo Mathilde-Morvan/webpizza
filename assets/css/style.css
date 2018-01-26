@@ -1,0 +1,208 @@
+     
+        
+    
+       .btn  {
+                border-radius: 0;
+                color: black;
+                background-color: yellow;
+                border:0;
+                text-transform: uppercase;
+                font-weight: 600;
+                padding: 1rem;
+                margin-top: 1rem;
+                margin-bottom: 3rem;
+                
+
+        }
+
+*:focus {
+        border-color:#FFFFFF;
+        box-shadow:none !important;
+}
+
+/* main-header style */
+        
+        .main-header {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        .navbar-light .navbar-nav .nav-link {
+            color: rgba(255,255,255,.5);
+        }
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: rgba(255,255,255,1);
+        }
+/* end main-header style */
+
+/*accueil style*/
+        .jumbotron {
+
+                background-color: rgba(0, 0, 0, 0.30);
+                color: #FFFFFF;
+                text-transform: uppercase;
+              
+                font-weight: 400;
+                text-align: center;
+                position: relative;
+                top: 225px;
+                height: 50% ;
+
+        }
+
+
+        .jumbotron h1 {
+                font-size: 68px;
+        }
+
+
+        .featured {
+                background-image: url(../images/pizza-show-1.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height: 700px;
+            
+        }
+
+/* end accueil style */
+
+/* main style */
+
+        section {
+                margin-bottom: 80px;
+        }
+
+        section:last-child{
+                margin-bottom: 160px;
+        }
+
+        .section-header {
+                text-align: center;
+                margin-top: 80px;
+
+        }
+        
+        
+        .section-title {
+                margin: 0 0 10px 0;
+                padding: 0 0 10px 0;
+                text-transform: uppercase;    
+                display: inline-block;
+                border-bottom: 3px solid #fbff00;
+                text-align: center;
+        }
+        .section-title::after {
+                content: "";
+                clear: both;
+                display: block;
+        }
+
+
+
+       .section-title::after {
+                content: "";
+                clear : both;
+                display: block;
+        }
+        
+        .section-header .lead   {
+          
+        }
+/* end main style */
+
+/* footer style */
+        .googlemap, .contact {
+                background-color: #333333;
+                color: #FFFFFF;
+        }
+
+        
+
+        
+.googlemap-content {
+        top: -80px;
+        height: 380px !important;
+        width: 100% !important;
+        position: relative;
+        overflow: hidden;
+        }
+.googlemap iframe {
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        height: 200%;
+        width: 200%;
+        }
+
+
+
+.form-control {
+        border-radius: 0%;
+        border: 1px solid white;
+        background-color: #333333;
+        padding: 1rem;
+
+}
+
+form{
+        text-align: center;
+        
+}
+
+.form-control:focus {
+background-color: #333333;
+border-color:#FFFFFF;
+
+
+}
+
+
+.contact-header {
+        text-align: center;
+        color: #FFFFFF;
+}
+
+.contact-title {
+        text-transform: uppercase;
+        font-weight: 400;
+      
+
+}
+.contact-text {
+        font-weight: 100;
+        margin-bottom: 50px
+       
+}
+
+.copyright {
+                background-color: #ffffff;
+                text-align: center;
+        }
+
+
+
+/* end footer style  */
+.card{
+
+border :0;
+text-align: center;
+margin-top: 2rem;
+margin-bottom: 2rem;
+
+}
+
+.card .btn{
+
+
+
+
+}
+
+
+.card .btn:hover {
+background-color: orange;
+
+}
+
+
+
+
