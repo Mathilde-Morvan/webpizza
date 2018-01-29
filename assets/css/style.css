@@ -13,6 +13,9 @@
         margin-bottom: 3rem;
         }
 
+.btn:hover {
+        background-color: rgb(255, 0, 21);}
+
 *:focus {
         border-color:#FFFFFF;
         box-shadow:none !important;
@@ -96,6 +99,7 @@ form{
 .copyright {
         background-color: #ffffff;
         text-align: center;
+        line-height: 4rem;
 }
 
 
@@ -119,7 +123,7 @@ form{
 
 
 .jumbotron h1 {
-        font-size: 68px;
+        font-size: 4rem;
 }
 
 
@@ -140,25 +144,28 @@ form{
 
 section {
         margin-bottom: 80px;
+        
 }
 
-section:last-child{
+section:first-child {
         margin-bottom: 160px;
 }
 
 .section-header {
         text-align: center;
+        ; 
     
 }
 
 
 .section-title {
         margin: 0 0 10px 0;
-        padding: 0 0 10px 0;
+        padding: 100px 0 10px 0;
         text-transform: uppercase;    
         display: inline-block;
         border-bottom: 3px solid #fbff00;
         text-align: center;
+      
 }
 
 .section-title::after {
@@ -177,9 +184,16 @@ section:last-child{
 border :0;
 text-align: center;
 margin-top: 2rem;
-margin-bottom: 2rem;
+
+/* margin-bottom: 2rem; */
 
 }
+
+.card-title {
+  
+        color: black;
+}
+
 
 
 .card .btn:hover {
@@ -187,6 +201,34 @@ background-color: orange;
 
 }
 
+/* page pizzas et salades */
+
+
+.list-group-item {
+        border: 0;
+       ;
+}
 
 
 
+
+/* page pizza  et salade*/
+.pizza ul, .salad ul {
+        list-style-type: none;
+              
+}
+
+.pizza p, .salad p {
+        margin-right:2rem;
+}
+
+.users-comments {
+
+        border-bottom : 1px solid grey;
+        padding: 1rem;
+        margin-left: 1rem;
+}
+
+.comments {
+        text-align: center;
+}

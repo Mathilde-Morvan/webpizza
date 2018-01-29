@@ -8,15 +8,24 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     
+<style>
+    .card-title{
+        text-decoration:none!important;
+}
+</style>
+
+
+
 </head>
 <body>
     
     <!-- Main header -->
     <header class="main-header fixed-top">
         <div class="container">
+                
             <!-- Menu principal -->
             <nav class="navbar navbar-expand-md navbar-light">
-                <a class="navbar-brand">
+                <a class="navbar-brand" href="#accueil">
                         <img src="assets/images/logo.png" alt="web pizza">
                 </a>
 
@@ -27,13 +36,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Nos Pizzas</a>
+                            <a class="nav-link" href="#menu-pizza">Nos Pizzas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Nos Salades</a>
+                            <a class="nav-link" href="#menu-salades">Nos Salades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#nous-ecrire">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -45,21 +54,22 @@
 
     <!-- Main content -->
     <div class="main-content">
+                   
         <!-- Featured -->
-        <div class="featured">
-                        <div class="jumbotron">
-                                        
-                                        <h1>Une bonne pizza <br/>pour bien coder</h1>
-                                        <p class="lead">
-                                           <a class="btn btn-primary btn-lg" href="#" role="button">manger cette pizza</a>
-                                        </p>
-                                      </div>
+        <div class="featured"  >
+            <div class="jumbotron" >
+                            
+                <h1>Une bonne pizza <br/>pour bien coder</h1>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="pizza.html" role="button">manger cette pizza</a>
+                </p>
+            </div>
             Featured
         </div>
         <!-- end .featured -->
 
         <!-- nos pizzas -->
-        <section class="pizzas">
+        <section class="pizzas" id="menu-pizza">
             <div class="container">
                 <div class="section-header">
 
@@ -74,94 +84,126 @@
                     
                         <!-- column -->
                         <div class="col-3">
-                            <div class="card">
-                                <img class="card-img-top" src="assets/images/pizza-1.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Pizza 1</h5>
-                                    <p class="card-text"></p>
-                                    <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
+                            
+                            <div class="card" >
+                                <a href="pizza.html">
+
+                                    <img class="card-img-top" src="assets/images/pizza-1.png" alt="Card image cap" >
+                                </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pizza 1</h5>
+                                        <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
                                 </div>
                             </div>
                         </div>
                         <!-- end - column -->
     
                      
-    
+    <!-- 2 -->
     
                         <div class="col-3">
-                                <div class="card">
+                            <div class="card">
+                                <a href="pizza.html"> 
                                     <img class="card-img-top" src="assets/images/pizza-2.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Pizza 2</h5>
-                                        <p class="card-text"></p>
-                                        <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
-                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza 2</h5>
+                                    <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
                                 </div>
                             </div>
-                            <div class="col-3">
-                                <div class="card">
-                                    <img class="card-img-top" src="assets/images/pizza-3.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Pizza 3</h5>
-                                        <p class="card-text"></p>
-                                        <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
-                                    </div>
+                        </div>
+<!-- 3 -->
+                        <div class="col-3">
+                            <div class="card">
+                                <a href="pizza.html"> 
+                                   <img class="card-img-top" src="assets/images/pizza-3.png" alt="Card image cap">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza 3</h5>                                        
+                                    <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
                                 </div>
                             </div>
-                            <div class="col-3">
-                                <div class="card">
+                        </div>
+<!-- 4 -->
+                        <div class="col-3">
+                            <div class="card">
+                                <a href="pizza.html">
+                                     
                                     <img class="card-img-top" src="assets/images/pizza-4.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Pizza 4</h5>
-                                        <p class="card-text"></p>
-                                        <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
-                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza 4</h5>                                       
+                                    <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
                                 </div>
                             </div>
-                            <div class="col-3">
-                                <div class="card">
+                        </div>
+<!-- 5 -->
+                         <div class="col-3">
+                            <div class="card">
+                                <a href="pizza.html"> 
                                     <img class="card-img-top" src="assets/images/pizza-5.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Pizza 5</h5>
-                                        <p class="card-text"></p>
-                                        <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
-                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza 5</h5>
+                                    <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
                                 </div>
                             </div>
-                            <div class="col-3">
-                                <div class="card">
+                        </div>
+<!-- 6 -->
+
+                        <div class="col-3">
+                            <div class="card">
+                                <a href="pizza.html">
                                     <img class="card-img-top" src="assets/images/pizza-6.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Pizza 6</h5>
-                                        <p class="card-text"></p>
-                                        <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
-                                    </div>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza 6</h5>
+                                    
+                                    <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
                                 </div>
                             </div>
-                            <div class="col-3">
-                                <div class="card">
+                        </div>
+<!-- 7 -->
+                        <div class="col-3">
+                            <div class="card">
+                                <a href="pizza.html">
                                     <img class="card-img-top" src="assets/images/pizza-7.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Pizza 7</h5>
-                                        <p class="card-text"></p>
-                                        <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
-                                    </div>
+                                </a>    
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza 7</h5>
+                                    <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
                                 </div>
                             </div>
-                            <div class="col-3">
-                                <div class="card">
+                        </div>
+<!-- 8 -->
+                        <div class="col-3">
+                            <div class="card">
+                                <a href="pizza.html">
                                     <img class="card-img-top" src="assets/images/pizza-8.png" alt="Card image cap">
+                                </a>
                                     <div class="card-body">
-                                        <h5 class="card-title">Pizza 8</h5>
-                                        <p class="card-text"></p>
-                                        <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
-                                    </div>
+                                    <h5 class="card-title">Pizza 8</h5>
+                                    <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
                                 </div>
                             </div>
+                        </div>
                         
     
                     </div>
                     <!-- fin - liste des pizzas -->      
+                    <div class="container">
+                            <div class="row">
+                              <div class="col-sm">
+                               
+                              </div>
+                              <div class="col-sm">
+                                    <a class="btn btn-primary btn-lg btn-block" href="pizzas.html" role="button">Toutes nos pizzas</a>    
+                              </div>
+                              <div class="col-sm">
+                            
+                              </div>
+                            </div>
+                          </div>
                 </div>
             </div>    
         
@@ -169,7 +211,7 @@
         <!-- end .pizzas -->
 
         <!-- Nos salades -->
-        <section class="salads">
+        <section class="salads" id="menu-salades">
             <div class="container">
                      <div class="section-header">
 
@@ -184,10 +226,13 @@
                                 <!-- column -->
                                 <div class="col-3">
                                     <div class="card">
-                                        <img class="card-img-top" src="assets/images/salade-1.jpg" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Scarole</h5>
-                                            <p class="card-text"></p>
+                                        <a href="salad.html">
+
+                                            <img class="card-img-top" src="assets/images/salade-1.jpg" alt="Card image cap">
+                                        </a>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Scarole</h5>
+                                            
                                             <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
                                         </div>
                                     </div>
@@ -197,10 +242,13 @@
                             <!-- column -->
                             <div class="col-3">
                                     <div class="card">
-                                        <img class="card-img-top" src="assets/images/salade-2.jpg" alt="Card image cap">
+                                        <a href="salad.html">
+
+                                            <img class="card-img-top" src="assets/images/salade-2.jpg" alt="Card image cap">
+                                        </a>
                                         <div class="card-body">
                                             <h5 class="card-title">Laitue</h5>
-                                            <p class="card-text"></p>
+                                            
                                             <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
                                         </div>
                                     </div>
@@ -210,10 +258,13 @@
                             <!-- column -->
                             <div class="col-3">
                                     <div class="card">
-                                        <img class="card-img-top" src="assets/images/salade-3.jpg" alt="Card image cap">
+                                        <a href="salad.html">
+
+                                            <img class="card-img-top" src="assets/images/salade-3.jpg" alt="Card image cap">
+                                        </a>
                                         <div class="card-body">
                                             <h5 class="card-title">Feuille de chêne</h5>
-                                            <p class="card-text"></p>
+                                            
                                             <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
                                         </div>
                                     </div>
@@ -223,10 +274,13 @@
                             <!-- column -->
                             <div class="col-3">
                                     <div class="card">
-                                        <img class="card-img-top" src="assets/images/salade-4.jpg" alt="Card image cap">
+                                        <a href="salad.html">
+                                            <img class="card-img-top" src="assets/images/salade-4.jpg" alt="Card image cap">
+                                        </a>
+                                        
                                         <div class="card-body">
                                             <h5 class="card-title">Céleri</h5>
-                                            <p class="card-text"></p>
+                                            
                                             <a href="#" class="btn btn-sm btn-block btn-primary">8,99 &#128;</a>
                                         </div>
                                     </div>
@@ -235,9 +289,21 @@
                         </div>
                         <!-- fin - liste des salades -->
                                 
+                        <div class="container">
+                                <div class="row">
+                                  <div class="col-sm">
+                                   
+                                  </div>
+                                  <div class="col-sm">
+                                        <a class="btn btn-primary btn-lg btn-block" href="salads.html" role="button">Toutes nos salades</a>    
+                                  </div>
+                                  <div class="col-sm">
+                                
+                                  </div>
+                                </div>
+                              </div>
         
-        
-                                                                               
+                                                                                                
                                       
                                       
                                       
@@ -265,7 +331,7 @@
         </div>
 
         <!-- Form de contact -->
-        <div class="contact">
+        <div class="contact" id="nous-ecrire">
             <div class="container">
                 <div class="contact-header">
 
@@ -318,5 +384,8 @@
     <!-- end .main-footer -->
 
     <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
